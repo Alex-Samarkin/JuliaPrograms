@@ -142,6 +142,8 @@ print("This is printed without a newline")
 print(" so this continues on the same line\n")
 
 # Formatted output
+# for using @sprintf
+using Printf
 value = 42
 formatted_output = @sprintf("The answer is %d", value)
 println(formatted_output)
@@ -188,9 +190,9 @@ temperature = 25
 if temperature > 30
     println("It's hot outside!")
 elseif temperature > 20
-    println("It's warm outside! Temperature: $temperature°C")
+    println("It's warm outside! Temperature: $temperature °C")
 else
-    println("It's cool outside! Temperature: $temperature°C")
+    println("It's cool outside! Temperature: $temperature °C")
 end
 
 # Ternary operator
@@ -264,7 +266,7 @@ println("\n# ================ 6. FUNCTIONS ================")
 
 # Basic function definition
 function greet(name)
-    return "Hello, $name!"
+    return "Hello, $name !"
 end
 
 println(greet("Alice"))
