@@ -1,41 +1,47 @@
-# Julia Basics Learning Series
+# Julia Основы Обучающая Серия
 
-This repository contains a series of educational programs introducing the Julia programming language. Each part builds upon the previous one to provide a comprehensive introduction to Julia.
+Этот репозиторий содержит серию образовательных программ, знакомящих с языком программирования Julia. Каждая часть основывается на предыдущей, обеспечивая всестороннее введение в Julia.
 
-## Parts in the Series
+## Части в серии
 
-### Part 1: Introduction to the Language (julia_basics_part1.jl)
-- Basic syntax and variable assignment
-- Data types (integers, floats, strings, booleans, complex numbers, etc.)
-- String operations and interpolation
-- Input/output operations
-- Control flow statements (if/else, loops)
-- Function definitions and usage
+### Часть 1: Введение в язык (julia_basics_part1.jl и julia_basics_part1_ru.jl)
+- Базовый синтаксис и присваивание переменных
+- Типы данных (целые числа, числа с плавающей точкой, строки, логические значения, комплексные числа и т.д.)
+- Операции со строками и интерполяция
+- Операции ввода/вывода
+- Управляющие структуры (if/else, циклы)
+- Определения и использование функций
 
-### Future Parts (Planned):
-- Part 2: Collections, Arrays, and Advanced Types
-- Part 3: Plotting and Visualization, External Libraries
-- Part 4: Creating Custom Modules and Packages
+### Будущие части (в планах):
+- Часть 2: Коллекции, массивы и расширенные типы
+- Часть 3: Построение графиков и визуализация, внешние библиотеки
+- Часть 4: Создание пользовательских модулей и пакетов
 
-## Running the Code
+## Запуск кода
 
-To run the first part of the series:
+Чтобы запустить первую часть серии:
 
 ```bash
 julia julia_basics_part1.jl
 ```
 
-## About Julia
+или для русскоязычной версии:
 
-Julia is a high-level, high-performance dynamic programming language designed for numerical and scientific computing. It combines the ease of use of languages like Python with the performance of compiled languages like C++.
+```bash
+julia julia_basics_part1_ru.jl
+```
 
-## Key Features Covered in Part 1
+## О языке Julia
 
-- **Dynamic Typing**: Variables can change types during runtime
-- **Multiple Dispatch**: Functions can have different implementations based on argument types
-- **Built-in Data Types**: Rich set of primitive and composite types
-- **Functional Programming**: Support for higher-order functions and anonymous functions
-- **Exception Handling**: Robust error handling mechanisms
-- **String Interpolation**: Elegant way to embed expressions in strings
+Julia - это высокого уровня, высокопроизводительный динамический язык программирования, разработанный для численных и научных вычислений. Он сочетает в себе удобство использования таких языков, как Python, с производительностью компилируемых языков, таких как C++.
 
-Each concept is thoroughly commented to help newcomers understand both the syntax and the underlying concepts.
+## Ключевые особенности, рассмотренные в Части 1
+
+- **Динамическая типизация**: переменные могут менять типы во время выполнения
+- **Множественная диспетчеризация**: функции могут иметь различные реализации в зависимости от типов аргументов
+- **Встроенные типы данных**: богатый набор примитивных и составных типов
+- **Функциональное программирование**: поддержка функций высшего порядка и анонимных функций
+- **Обработка исключений**: надежные механизмы обработки ошибок
+- **Интерполяция строк**: элегантный способ встраивания выражений в строки
+
+Каждая концепция тщательно прокомментирована, чтобы помочь новичкам понять как синтаксис, так и лежащие в основе концепции.
