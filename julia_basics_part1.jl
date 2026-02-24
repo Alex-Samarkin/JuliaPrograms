@@ -223,6 +223,7 @@ println("\nWhile loop example:")
 counter = 1
 while counter <= 3
     println("Counter: $counter")
+    global counter  # Declare counter as global to modify it inside the loop
     counter += 1
 end
 

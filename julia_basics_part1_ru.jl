@@ -217,6 +217,7 @@ println("\nПример цикла while:")
 counter = 1
 while counter <= 3
     println("Счетчик: $counter")
+    global counter  # Declare counter as global to modify it inside the loop
     counter += 1
 end
 
